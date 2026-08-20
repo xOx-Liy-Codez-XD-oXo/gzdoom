@@ -2,6 +2,8 @@
 
 [![Continuous Integration](https://github.com/ZDoom/gzdoom/actions/workflows/continuous_integration.yml/badge.svg)](https://github.com/ZDoom/gzdoom/actions/workflows/continuous_integration.yml)
 
+# This fork is a huonk of shit dont bother the devs dont bother me dont bother anyone shut up
+
 ## GZDoom is a modder-friendly OpenGL and Vulkan source port based on the DOOM engine
 
 Copyright (c) 1998-2025 ZDoom + GZDoom teams, and contributors
@@ -19,6 +21,8 @@ Special thanks to Coraline of the EDGE team for allowing us to use her [README.m
 ## How to build GZDoom
 
 To build GZDoom, please see the [wiki](https://zdoom.org/wiki/) and see the "Programmer's Corner" on the bottom-right corner of the page to build for your platform.
+
+Except when it says get the source from zdoom get it from me instead and instead of switching to the latest tag ur gonna wanna switch to the g4.14.2-i686 branch and compile that
 
 # Resources
 - https://zdoom.org/ - Home Page
