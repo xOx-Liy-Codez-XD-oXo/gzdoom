@@ -114,7 +114,7 @@ int PTM_BestColor (const uint32_t *pal_in, int r, int g, int b, bool reverselook
 	return bestcolor;
 }
 
-#if defined(_M_X64) || defined(_M_IX86) || defined(__i386__) || defined(__amd64__)
+#if defined(_M_X64) || defined(__amd64__)
 
 #ifdef _MSC_VER
 #include <intrin.h>
@@ -220,7 +220,7 @@ void DoBlending (const PalEntry *from, PalEntry *to, int count, int r, int g, in
 		}
 		return;
 	}
-#if defined(_M_X64) || defined(_M_IX86) || defined(__i386__) || defined(__amd64__)
+#if defined(_M_X64) || defined(__amd64__)
 	else if (count >= 4)
 	{
 		int not3count = count & ~3;
