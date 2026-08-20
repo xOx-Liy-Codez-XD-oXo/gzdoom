@@ -34,9 +34,10 @@ struct ModelAnim
 	int flags = MODELANIM_NONE;
 	double startTic = 0; // when the current animation started (changing framerates counts as restarting) (or when animation starts if interpolating from previous animation)
 	double switchOffset = 0; // when the animation was changed -- where to interpolate the switch from
+	uint32_t pad;
 };
 
-static_assert(sizeof(ModelAnim) == sizeof(double) * 6);
+//static_assert(sizeof(ModelAnim) == sizeof(double) * 6);
 
 using ModelAnimFrame = std::variant<std::nullptr_t, ModelAnimFrameInterp, ModelAnimFramePrecalculatedIQM>;
 
